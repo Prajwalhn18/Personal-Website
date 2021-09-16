@@ -1,0 +1,2 @@
+(this["webpackJsonppersonal-website"]=this["webpackJsonppersonal-website"]||[]).push([[0],{10:function(e,t,n){"use strict";n.r(t);var s=n(1),r=n.n(s),c=n(3),i=n.n(c),o=(n(8),n(0));var d=function(){return Object(o.jsx)("div",{children:Object(o.jsx)("h2",{children:"The website is under development"})})};i.a.render(Object(o.jsx)(r.a.StrictMode,{children:Object(o.jsx)(d,{})}),document.getElementById("root"))},8:function(e,t,n){}},[[10,1,2]]]);
+//# sourceMappingURL=main.860484b1.chunk.js.map
