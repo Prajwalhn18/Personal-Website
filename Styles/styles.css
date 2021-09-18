@@ -1,0 +1,10 @@
+html,body {
+    box-sizing: border-box;
+    font-family:monospace;
+    font-size: larger;
+}
+#logo{
+    font-size: larger;
+    color:black;
+}
+
