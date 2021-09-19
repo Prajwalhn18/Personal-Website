@@ -38,8 +38,12 @@ body {
     height: 8rem;
     border-radius: 50%;
   }
+
+  #project-heading{
+    justify-content: center;
+  }
   .content {
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-left: 20rem;
   }
 
@@ -58,6 +62,9 @@ body {
   #project-fonts {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
+  }
+  #contact{
+    font-family: 'Times New Roman', Times, serif;
   }
 }
 #footer {
