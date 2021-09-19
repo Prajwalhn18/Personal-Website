@@ -1,16 +1,69 @@
-html,body {
-    box-sizing: border-box;
-    font-family:monospace;
-    font-size: larger;
+html,
+body {
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: larger;
+  padding: 0;
 }
-#logo{
-    font-size: larger;
-    color:black;
+#logo {
+  font-size: larger;
+  color: black;
 }
-#footer{
-    width:100%;
-   text-align: center;
-   position: fixed;
-    bottom:1px;
-    color:black;
+@media only screen and (max-width: 600px) {
+  .profile-information {
+    display: none;
+  }
+  .profile-information img {
+    display: none;
+  }
+  .content {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .profile-information {
+    padding: 2rem;
+    position: fixed;
+    margin-top: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around 2px;
+    width: 18rem;
+    height: 30rem;
+    border-right: 1px solid black;
+  }
+  .profile-information img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+  }
+  .content {
+    margin-top: 6rem;
+    margin-left: 20rem;
+  }
+
+  .inner {
+    overflow: hidden;
+  }
+
+  .inner img {
+    transition: all 1.5s ease;
+  }
+
+  .inner:hover img {
+    transform: scale(1.5);
+  }
+
+  #project-fonts {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+}
+#footer {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 1px;
+  color: black;
 }
