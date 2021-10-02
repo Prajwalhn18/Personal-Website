@@ -48,6 +48,10 @@ body {
     justify-content: center;
   }
 
+  .skill-items{
+    margin-right:8px;
+  }
+
   .skills-logo img{
     border-radius: 0;
    width:4rem;
@@ -85,7 +89,7 @@ body {
     color: black;
   }
 }
-  
+
 @media only screen and (min-width: 600px) {
   .Nav-desk{
     margin-left:20rem;
@@ -121,13 +125,16 @@ body {
     display: flex;
     flex-flow: row-wrap;
     width:100%;
-    flex: 0 0 33.333%;
     justify-content: space-around;
-  }     
+  } 
+  
+  .skill-items{
+    margin-right:8px;
+  }
 
   .skills-logo img{
+    width:25%;
     border-radius: 0;
-   width:4rem;
 
   }
 
