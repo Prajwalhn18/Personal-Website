@@ -10,6 +10,7 @@ body {
   color: black;
 }
 
+
 @media only screen and (max-width: 600px) {
   .Nav-desk{
     display: none;
@@ -68,7 +69,6 @@ body {
     margin-top: 2rem;
     justify-content: center;
   }
-
   .content {
     margin-top: 2rem;
   }
